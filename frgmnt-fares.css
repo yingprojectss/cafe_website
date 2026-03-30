@@ -1,0 +1,65 @@
+.middle-section {
+    height: 1500px;
+}
+.fare-info h1 {
+    color: black;
+    font-size: 18px;
+    font-family: "Nunito";
+    font-weight: bold;
+}
+
+.fare-info h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-top: 35px;
+    margin-bottom: 0;
+    color: grey;
+    font-weight: 25;
+    letter-spacing: 0.7px;
+}
+
+.fare-info h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-style: italic;
+    margin: 10px 0 0 0;
+    color: grey;
+    font-weight: 25;
+    letter-spacing: 0.7px;
+}
+
+.fare-info h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 11px;
+    margin: 35px;
+    color: grey;
+    font-weight: 25;
+    letter-spacing: 0.9px;
+}
+
+.flex-container-food {
+    display: flex;
+    gap: 30px;
+    margin: 100px;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.box1-food {
+    width: 800px;
+    height: 450px;
+    background-image: url("https://frgmntcoffee.com/cdn/shop/files/DSC00979_1024x1024.jpg?v=1771012483");
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.box2-food {
+    width: 550px;
+    height: 450px;
+    background-image: url("https://frgmntcoffee.com/cdn/shop/files/DSC01009_1024x1024.jpg?v=1771012512");
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+}

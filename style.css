@@ -1,0 +1,327 @@
+.header {
+    display: relative;
+    color: rgb(239, 228, 211);
+    padding: 25px;
+    text-align: center;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.shopping-bag {
+    position: absolute;
+    width: 25px;
+    height: 30px;
+    color: white;
+    top: 20px;
+    right: 20px;
+}
+
+.profile-icon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    color: white;
+    top: 20px;
+    right: 60px;
+}
+
+.topSectionMain {
+    background-image: url("https://frgmntcoffee.com/cdn/shop/files/tomorrow._1024x1024.jpg?v=1672955616");
+    background-size: cover;
+    min-height: 600px;
+    padding: none;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+    margin: 0;
+    font-family: monospace;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+body {
+    background-color: rgb(249, 247, 242);
+    padding: 0;
+    margin: 0;
+}
+
+.topNav{
+    text-align: center;
+    padding: 10px 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.topNav a{
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+    transition: border-color 0.3s ease;
+    letter-spacing: 0.7px;
+    font-size: 13px;
+}
+
+.topNav a:hover{ 
+    color: #363636; 
+    border-bottom: 2px solid #363636;
+}
+
+.dropdown {
+    position: relative; 
+    align-items: center;
+    display: flex;
+}
+
+.options-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%; /* directly under "Menus" link */
+    left: 0;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.options-dropdown a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: grey;
+}
+
+/* hover effect inside dropdown */
+.options-dropdown a:hover {
+    border: none;
+    color: black;
+    
+}
+
+.dropdown:hover .options-dropdown {
+    display: block;
+}
+
+.pronounce {
+    text-align: center;
+    margin-top: 175px;
+    justify-content: center;
+}
+
+.pronounce h1 {
+    font-family: "Nunito";
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.pronounce p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+
+.flex-container-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 50px;
+    column-gap: 10px;
+    margin: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.box {
+    width: 700px;
+    height: 450px;
+}
+
+.box1 {
+    background-image: url("https://frgmntcoffee.com/cdn/shop/files/website-09_1024x1024.jpg?v=1665602576");
+    background-size: cover;
+}
+
+.box2 {
+    background-image: url("https://frgmntcoffee.com/cdn/shop/files/EP_entry_1024x1024.jpg?v=1695992987");
+    background-size: cover;
+}
+
+.box3 {
+    background-image: url("https://frgmntcoffee.com/cdn/shop/files/FRGMNT_Main_1_1024x1024.jpg?v=1695993256");
+    background-size: cover;
+}
+
+.box4 {
+    background-image: url("https://frgmntcoffee.com/cdn/shop/files/MIll_Bar_1024x1024.jpg?v=1730828439");
+    background-size: cover;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    letter-spacing: 1px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: darkgrey;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 8px;
+}
+
+.loc {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 80px;
+    font-weight: normal;
+}
+
+.newLocation {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 20px;
+}
+.newLocImg {
+    background-image: url("https://frgmntcoffee.com/cdn/shop/files/shared235_1024x1024.jpg?v=1741138531");
+    width: 700px;
+    height: 750px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    background-size: cover;
+}
+
+.newLocDescription {
+    flex: 1;
+    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.newLocDescription * {
+    margin: 0;
+    padding: 0;
+}
+
+.newLocDescription h4 {
+    font-family: sans-serif;
+    color: black;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+    letter-spacing: 1px;
+}
+
+.newLocDescription h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(146, 146, 146);
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-weight: lighter;
+    letter-spacing: 0.7px;
+}
+
+.newLocDescription p {
+    text-align: left;
+    /* row-gap: 2px; */
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(146, 146, 146);
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+hr {
+    background-color: rgb(186, 186, 186);
+    height: 0.5px;
+    border: none;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.bottom {
+    display: flex;
+}
+
+.bottomLeft p {
+    flex: 1;
+    text-align: left;
+    /* margin: 1.5px; */
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(140, 140, 140);
+    line-height: 20px;
+}
+
+.bottomLeft {
+    flex: 1;
+    margin-left: 50px;
+}
+
+.bottomRight p {
+    flex: 1;
+    text-align: left;
+    margin: 1.5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(140, 140, 140);
+}
+
+.bottomRight {
+    flex: 1;
+    margin-left: 600px;
+}
+
+h5 {
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+input {
+    margin-top: 30px;
+    height: 45px;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid lightgrey;
+    padding-left: 14px; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color: rgb(249, 247, 242);
+    color: grey;
+}
+
+button {
+    margin-top: 20px;
+    background-color: rgb(231, 164, 151);
+    height: 45px;
+    width: 100px;
+    border-radius: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    color: white;
+}
+
+button:hover {
+    background-color: black;
+}
+

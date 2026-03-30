@@ -1,0 +1,65 @@
+.img-section {
+    background-image: url("images/Screenshot\ 2026-03-26\ at\ 12.11.28\ PM.png");
+}
+
+
+.middle-section {
+    height: 1000px;
+}
+
+.special-menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.left-imgs {
+    position: relative;
+    width: 500px;   /* enough space for both images */
+    height: 500px;
+    margin-left: 80px;
+}
+
+.img1, .img2 {
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+}
+
+/* BACK image */
+.img2 {
+    bottom: 0;
+    left: 300px;   /* push it slightly right */
+    z-index: 1;
+}
+
+/* FRONT image (the one overlapping the corner) */
+.img1 {
+    top: 100px;  /* move it UP */
+    left: 1px;        /* keep it left */
+    z-index: 2;
+}
+
+.menu-items {
+    width: 55%;
+    margin-left: 400px;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.menu-items h2 {
+    text-align: left;
+}
+.menu-items h4 {
+    color: grey;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.menu-items li {
+    color: grey;
+    font-weight: 100;
+    font-size: 14px;
+}

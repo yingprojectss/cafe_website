@@ -1,0 +1,93 @@
+.topSection a {
+    color: black;
+    text-decoration: none;
+}
+
+.topSection {
+    min-height: 200px;
+    padding: 0;
+}
+
+.topSection hr {
+    margin: 0;
+}
+
+.topSection h1 {
+    color: black;
+}
+
+.topNav a {
+    /* margin-top: 5px; */
+    margin-bottom: 10px;
+    color: grey;
+}
+
+/* .topNav {
+    margin: 0;
+} */
+
+.middle-section {
+    margin-top: 70px;
+    justify-content: center;
+    text-align: center;
+    height: 1200px;
+}
+
+.coffee-offerings h1 {
+    color: black;
+    font-size: 16px;
+    font-family: "Nunito";
+    font-weight: bold;
+}
+
+.coffee-offerings p {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(129, 129, 129);
+    letter-spacing: 0.7px;
+
+}
+
+.coffee-types h2 {
+    font-weight: 575;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+}
+
+.tea-offerings h1 {
+    color: black;
+    font-size: 16px;
+    font-family: "Nunito";
+    font-weight: bold;
+}
+
+.tea-offerings p {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(129, 129, 129);
+    letter-spacing: 0.7px;
+
+}
+
+.tea-types h2 {
+    font-weight: 575;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+}
+
+.tea-types h3 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 25px 0 0 0;
+    font-size: 13px;
+    color: grey;
+}
+
+.flex-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 50px;
+    column-gap: 10px;
+    margin: 20px;
+    margin-top: 60px;
+    justify-items: center;
+    align-items: center;
+}
+

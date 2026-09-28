@@ -1,0 +1,72 @@
+.img-section {
+    background-image: url("https://frgmntcoffee.com/cdn/shop/files/Screen_Shot_2022-10-20_at_9.14.39_AM_1024x1024.png?v=1666275291");
+}
+
+
+.middle-section {
+    height: 1000px;
+}
+
+.catering-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.left-imgs {
+    position: relative;
+    width: 500px;   /* enough space for both images */
+    height: 500px;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.img1, .img2 {
+    object-fit: cover;
+    position: absolute;
+}
+
+/* BACK image */
+.img2 {
+    width: 350px;
+    height: 300px;
+    bottom: 200px;
+    left: 300px;   /* push it slightly right */
+    z-index: 1;
+}
+
+/* FRONT image (the one overlapping the corner) */
+.img1 {
+    width: 350px;
+    height: 525px;
+    top: 60px;  /* move it UP */
+    left: 1px;        /* keep it left */
+    z-index: 2;
+}
+
+.more-info {
+    width: 55%;
+    margin-left: 400px;
+    margin-top: 70px;
+    text-align: left;
+}
+
+.more-info h2 {
+    text-align: left;
+    margin: 0;
+}
+.more-info h4 {
+    color: grey;
+    font-weight: lighter;
+    font-size: 11px;
+    letter-spacing: 0.7px;
+}
+
+.more-info h3 {
+    color: rgb(148, 148, 148);
+    font-weight: lighter;
+    font-size: 13px;
+    letter-spacing: 0.7px;
+    margin-top: 20px;
+}

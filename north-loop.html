@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <title>North Loop</title>
+    <script src="website.js"></script>
 </head>
 <body>
     <div class="topSection">
@@ -43,7 +44,7 @@
                     <a href="skyway.html">Skyway</a>
                 </div>
             </div>
-                <a href="#catering">Catering</a>
+                <a href="catering.html">Catering</a>
                 <a href="#giftcards">Gift Cards</a>
             <div class="dropdown">
                 <a href="#info">Info</a>
@@ -77,16 +78,19 @@
             <div class="bottomLeft">
                 <h5>FRGMNT COFFEE</h5>
                 <p>FRGMNT is a multi-roaster cafe located in Minnesota, born out of our love
-                    of coffee, excitement over trying new things, and joy in bringing people together.</p>
+                 of coffee, excitement over trying new things, and joy in bringing people together.</p>
             </div>
             <div class="bottomRight">
                 <h5>NEWSLETTER</h5>
                 <p>Sign up for exclusive offers, new roasters, events and more.</p>
-                <input type="text" id="email" name="email" placeholder="Enter email">
-                <br>
-                <button>Sign Up</button>
+                <form onsubmit="validateEmail(event)">
+                    <input type="text" id="email" name="email" placeholder="Enter email">
+                    <br>
+                    <p id="error" style="color:rgb(199, 120, 120);"></p>
+                    <button type="submit">Sign Up</button>
+                </form>
             </div>
         </footer>
-    <hr>
-</body>
+        <hr>
+    </body>
 </html>

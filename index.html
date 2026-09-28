@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>frgmnt-replication</title>
+        <script src="website.js"></script>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,7 +40,7 @@
                         <a href="skyway.html">Skyway</a>
                     </div>
                 </div>
-                    <a href="#catering">Catering</a>
+                    <a href="catering.html">Catering</a>
                     <a href="#giftcards">Gift Cards</a>
                 <div class="dropdown">
                     <a href="#info">Info</a>
@@ -101,9 +102,12 @@
             <div class="bottomRight">
                 <h5>NEWSLETTER</h5>
                 <p>Sign up for exclusive offers, new roasters, events and more.</p>
-                <input type="text" id="email" name="email" placeholder="Enter email">
-                <br>
-                <button>Sign Up</button>
+                <form onsubmit="validateEmail(event)">
+                    <input type="text" id="email" name="email" placeholder="Enter email">
+                    <br>
+                    <p id="error" style="color:rgb(199, 120, 120);"></p>
+                    <button type="submit">Sign Up</button>
+                </form>
             </div>
         </footer>
         <hr>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>frgmnt-replication</title>
+        <script src="website.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topSectionMain">
+            <header class="header">
+                <h1><a href="index.html">FRGMNT COFFEE</a></h1>
+                <a href="shopping-cart.html">
+                    <img class="shopping-bag" src="images/cart.png" alt="Cart">
+                </a>
+                <a href="profile.html">
+                    <img class="profile-icon" src="images/user-white.png" alt="Profile">
+                </a>
+            </header>
+            <nav class="topNav">
+                <div class="dropdown">
+                    <a href="#">Menus</a>
+                    <div class="options-dropdown">
+                        <a href="beverages.html">Beverages</a>
+                        <a href="frgmnt-fares.html">FRGMNT Fares</a>
+                    </div>
+                </div>
+                    <a href="partnership.html">Partnerships</a>
+                <div class="dropdown">
+                    <a href="#">Locations</a>
+                    <div class="options-dropdown">
+                        <a href="north-loop.html">North Loop</a>
+                        <a href="eden-prairie.html">Eden Prairie</a>
+                        <a href="st-anthony-main.html">St. Anthony Main</a>
+                        <a href="mill-district.html">Mill District</a>
+                        <a href="skyway.html">Skyway</a>
+                    </div>
+                </div>
+                    <a href="catering.html">Catering</a>
+                    <a href="#giftcards">Gift Cards</a>
+                <div class="dropdown">
+                    <a href="#info">Info</a>
+                    <div class="options-dropdown">
+                        <a href="about.html">About</a>
+                        <a href="jobs.html">Jobs</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="pronounce">
+                <h1>FRGMNT (FRAG-MENT) -</h1>
+                <p>part of the whole: neighborhood / industry / community / world</p>
+            </div>
+        </div>
+        <h1 class="loc">LOCATIONS</h1>
+        <section class="locationSection">
+            <div class="flex-container-main">
+                <article class="locationInfo">
+                    <div class="box box1"></div>
+                    <h2>NORTH LOOP | NORDIC</h2>
+                    <p>729 N Washington Ave, Minneapolis, MN 55401</p>
+                </article>
+                <article class="locationInfo">
+                    <div class="box box2"></div>
+                    <h2>EDEN PRAIRIE | ONE SOUTHWEST CROSSING</h2>
+                    <p>11095 Viking Dr, Eden Prairie, MN 55344</p>
+                </article>
+                <article class="locationInfo">
+                    <div class="box box3"></div>
+                    <h2>ST. ANTHONY MAIN | RIVERPLACE</h2>
+                    <p>43 SE Main St Minneapolis, MN 55414</p>
+                </article>
+                <article class="locationInfo">
+                    <div class="box box4"></div>
+                    <h2>MILL DISTRICT | OPEN BOOK</h2>
+                    <p>1011 S Washington Ave, Minneapolis, MN 55415</p>
+                </article> 
+            </div>
+        </section>
+        <section class="newLocation">
+            <div class="newLocImg"></div>
+            <div class="newLocDescription">
+                <h3>NOW OPEN</h3>
+                <h4>SKYWAY | SPS TOWER</h4>
+                <p>333 S 7th Minneapolis, MN 55402</p>
+                <p>Monday: 6:30am-3pm</p>
+                <p>Tuesday-Thursday 6:30am-6pm</p>
+                <p>Friday: 6:30am-3pm</p>
+            </div>
+        </section>
+        <hr>
+        <footer class="bottom">
+            <div class="bottomLeft">
+                <h5>FRGMNT COFFEE</h5>
+                <p>FRGMNT is a multi-roaster cafe located in Minnesota, born out of our love
+                 of coffee, excitement over trying new things, and joy in bringing people together.</p>
+            </div>
+            <div class="bottomRight">
+                <h5>NEWSLETTER</h5>
+                <p>Sign up for exclusive offers, new roasters, events and more.</p>
+                <form onsubmit="validateEmail(event)">
+                    <input type="text" id="email" name="email" placeholder="Enter email">
+                    <br>
+                    <p id="error" style="color:rgb(199, 120, 120);"></p>
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+        </footer>
+        <hr>
+    </body>
+</html>

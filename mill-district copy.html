@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="beverages.css">
+    <link rel="stylesheet" href="frgmnt-fares.css">
+    <link rel="stylesheet" href="north-loop.css">
+    <link rel="stylesheet" href="mill-district.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>Mill District</title>
+    <script src="website.js"></script>
+</head>
+<body>
+    <div class="topSection">
+        <header class="header">
+            <h1><a href="index.html">FRGMNT COFFEE</a></h1>
+            <a href="shopping-cart.html">
+                <img class="shopping-bag" src="images/black-bag.png" alt="Cart">
+            </a>
+            <a href="profile.html">
+                <img class="profile-icon" src="images/user-black.png" alt="Profile">
+            </a>
+        </header>
+        <hr>
+        <nav class="topNav">
+            <div class="dropdown">
+                <a href="#">Menus</a>
+                <div class="options-dropdown">
+                    <a href="beverages.html">Beverages</a>
+                    <a href="frgmnt-fares.html">FRGMNT Fares</a>
+                </div>
+            </div>
+                <a href="partnership.html">Partnerships</a>
+            <div class="dropdown">
+                <a href="#">Locations</a>
+                <div class="options-dropdown">
+                    <a href="north-loop.html">North Loop</a>
+                    <a href="eden-prairie.html">Eden Prairie</a>
+                    <a href="st-anthony-main.html">St. Anthony Main</a>
+                    <a href="mill-district.html">Mill District</a>
+                    <a href="skyway.html">Skyway</a>
+                </div>
+            </div>
+                <a href="catering.html">Catering</a>
+                <a href="gift-cards.html">Gift Cards</a>
+            <div class="dropdown">
+                <a href="about.html">Info</a>
+                <div class="options-dropdown">
+                    <a href="about.html">About</a>
+                    <a href="jobs.html">Jobs</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <hr>
+        <section class="img-section">
+            <h1>MILL DISTRICT | MINNEAPOLIS</h1>
+        </section>
+    </div>
+
+    <article class="middle-section">
+        <section class="about">
+            <h2>ABOUT</h2>
+            <h3>This location is in the Open Book building in the Mill District of Minneapolis.</h3>
+            <h3>At this location we offer Cardigan Donuts M-Sat and Honey + Rye baked goods everyday. We also offer grab-n-go FRGMNT Fares.</h3>    
+            <h3>This is a dog-friendly building.</h3>
+            <h3>Free parking is available in the Open Book parking lot and there is paid street parking.</h3>
+            <h3>Meeting rooms are available to rent at this location via Open Book</h3>
+            <h3>M-F 6:30am-6pm + Sat-Sun 7am-6pm</h3>
+            <h3>1011 S Washington Ave, Minneapolis, MN 55415</h3>
+        </section>
+    </article>
+
+    <hr>
+    <footer class="bottom">
+        <div class="bottomLeft">
+            <h5>FRGMNT COFFEE</h5>
+            <p>FRGMNT is a multi-roaster cafe located in Minnesota, born out of our love
+             of coffee, excitement over trying new things, and joy in bringing people together.</p>
+        </div>
+        <div class="bottomRight">
+            <h5>NEWSLETTER</h5>
+            <p>Sign up for exclusive offers, new roasters, events and more.</p>
+            <form onsubmit="validateEmail(event)">
+                <input type="text" id="email" name="email" placeholder="Enter email">
+                <br>
+                <p id="error" style="color:rgb(199, 120, 120);"></p>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </footer>
+    <hr>
+</body>
+</html>
